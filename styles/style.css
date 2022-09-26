@@ -45,9 +45,16 @@ body {
 .page-container {
   width: 1200px;
   margin: 0 auto;
+  padding: 0 40px;
   text-align: center;
-  background-color: #ffffff;
+  background: #f2f2f2;
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+.page-wrapper {
+  max-width: 1280px;
+  box-shadow: 0px 0px 15px rgb(0 0 0 / 20%);
+  background: #ffffff;
 }
 
 .page-text-container {
@@ -230,7 +237,14 @@ body {
 }
 
 .advantages-number {
+  width: 60px;
+  height: 2px;
   margin: 0;
+  background: rgba(0, 0, 0, 0.3);
+}
+
+.advantages-number-color {
+  background: rgba(255, 255, 255, 0.3);
 }
 
 .advantages-text {
@@ -850,6 +864,8 @@ input::-webkit-inner-spin-button {
   row-gap: 16px;
   padding: 19px 23px;
   text-align: left;
+  border: 1px solid #e6e6e6;
+  border-radius: 4px;
 }
 
 .product-card-buttons {
@@ -867,12 +883,17 @@ input::-webkit-inner-spin-button {
   margin: 0;
 }
 
+.product-card-text--price {
+  text-align: end;
+}
+
 .product-list {
   display: grid;
   grid-template-columns: 340px 340px 340px;
-  gap: 1px 18px;
-  padding: 0;
+  gap: 18px;
+  padding: 0 0 40px;
   list-style-type: none;
+  border-bottom: 1px solid #e6e6e6;
 }
 
 .button {
@@ -1048,7 +1069,7 @@ input::-webkit-inner-spin-button {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-top: 96px;
+  margin-top: 40px;
 }
 
 .pagination-list {
@@ -1074,6 +1095,11 @@ input::-webkit-inner-spin-button {
   text-decoration: none;
 }
 
+.pagination-link--more {
+  color: #000000;
+  background: #ffffff;
+}
+
 .pagination-link:hover {
   background-color: #68a2ca;
 }
@@ -1094,12 +1120,6 @@ input::-webkit-inner-spin-button {
   text-transform: uppercase;
   color: #000000;
   background: #f2f2f2;
-}
-
-.pagination-user {
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 .select-hotel {
