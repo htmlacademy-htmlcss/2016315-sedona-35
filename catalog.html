@@ -101,21 +101,21 @@
               <ul class="filter-catalog-list">
                 <li class="filter-catalog-item">
                   <label class="control">
-                    <input class="visually-hidden control-input" type="radio" name="hotel" value="hotel" checked />
+                    <input class="visually-hidden control-input" type="radio" name="home" value="hotel" checked />
                     <span class="control-mark-radio"></span>
                     <span class="control-label">Гостиница</span>
                   </label>
                 </li>
                 <li class="filter-catalog-item">
                   <label class="control">
-                    <input class="visually-hidden control-input" type="radio" name="motel" value="motel" />
+                    <input class="visually-hidden control-input" type="radio" name="home" value="motel" />
                     <span class="control-mark-radio"></span>
                     <span class="control-label">Мотель</span>
                   </label>
                 </li>
                 <li class="filter-catalog-item">
                   <label class="control">
-                    <input class="visually-hidden control-input" type="radio" name="apartments" value="apartments" />
+                    <input class="visually-hidden control-input" type="radio" name="home" value="apartments" />
                     <span class="control-mark-radio"></span>
                     <span class="control-label">Апартаменты</span>
                   </label>
@@ -131,11 +131,11 @@
                 <div class="range-wrapper-inputs">
                   <label class="price-one price-two">
                     <input class="price-number" type="number" name="min-price" min="0" max="9000" value="0">
-                    <label class="price-right">от</label>
+                    <span class="price-right">от</span>
                   </label>
                   <label class="price-two">
                     <input class="price-number" type="number" name="max-price" min="1" max="9000" value="9000">
-                    <label class="price-left">до</label>
+                    <span class="price-left">до</span>
                   </label>
                 </div>
 
@@ -317,7 +317,7 @@
       </main>
 
       <footer>
-        <section class="footer-mail">
+        <section class="footer-email footer-email--catalog">
           <h2 class="footer-title">Подпишитесь на рассылку</h2>
           <p class="footer-text">Только полезная информация и никакого спама, честное бойскаутское!</p>
           <form class="email-button" action="https://echo.htmlacademy.ru" method="post">
