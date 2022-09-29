@@ -926,14 +926,24 @@ input::-webkit-inner-spin-button {
   border: 2px solid #000000;
 }
 
-.product-list-star {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
+.hotel-stars {
   padding: 0;
   margin: 0;
-  gap: 6px;
-  list-style-type: none;
+  height: 32px;
+  background: url("../images/star.svg") space 0 0;
+  background-position: right;
+}
+
+.hotel-stars--four {
+  width: 89px;
+}
+
+.hotel-stars--two {
+  width: 41px;
+}
+
+.hotel-stars--three {
+  width: 60px;
 }
 
 .rating-star {
