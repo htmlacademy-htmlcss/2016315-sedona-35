@@ -1251,6 +1251,11 @@ input::-webkit-inner-spin-button {
   width: 100%;
   height: 100%;
   background-color: rgba(242, 242, 242, 0.8);
+  display: none;
+}
+
+.modal-container--show {
+  display: flex;
 }
 
 .modal {
@@ -1342,14 +1347,14 @@ input::-webkit-inner-spin-button {
 
 .search-hotels-form-field:focus {
   background-color: #e6e6e6;
-  border: 3px solid #83b3d3;
+  box-shadow: 0 0 0 2px #83b3d3;
   border-radius: 4px;
   outline: none;
 }
 
 .search-hotels-form-field:active {
   background-color: #ffffff;
-  border: 2px solid #000000;
+  box-shadow: 0 0 0 2px #000000;
   border-radius: 4px;
   outline: none;
 }
