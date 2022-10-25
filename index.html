@@ -62,7 +62,7 @@
             <li class="advantages-wrapper--one">
               <div class="advantages-one advantages--number-blue">
                 <h3 class="advantages-title">Настоящий городок</h3>
-                <p class="advantages-text">Седона — не аттракцион для туристов, там течёт своя
+                <p class="advantages-text advantages-text--color">Седона — не аттракцион для туристов, там течёт своя
                   жизнь</p>
               </div>
               <div class="advantages-image--conteiner">
@@ -89,7 +89,8 @@
               </div>
               <div class="advantages-one advantages--number-blue">
                 <h3 class="advantages-title">Там есть<br> мост дьявола</h3>
-                <p class="advantages-text">Да, по нему можно пройти! Если вы осмелитесь, разумеется
+                <p class="advantages-text advantages-text--color">Да, по нему можно пройти! Если вы осмелитесь,
+                  разумеется
                 </p>
               </div>
             </li>
@@ -200,15 +201,15 @@
             <form class="search-hotels-form" action="https://echo.htmlacademy.ru/" method="post">
               <div class="field-group null-margins">
                 <label class="modal-label" for="arrival-date">Дата Заезда:</label>
-                <input class="search-hotels-form-field" type="text" id="arrival-date" name="arrival-date"
-                  placeholder="Укажите дату" value="27 апреля 2020" required>
+                <input class="search-hotels-form-field" required type="text" id="arrival-date" name="arrival-date"
+                  placeholder="Укажите дату заезда" value="27 апреля 2020">
               </div>
               <p class="footnote-arrival-date null-margins"> Мы не можем отправить вас в прошлое. </p>
 
               <div class="field-group field-group--data-clear">
                 <label class="modal-label" for="departure-date">Дата Выезда:</label>
-                <input class="search-hotels-form-field" type="text" id="departure-date" name="departure-date"
-                  placeholder="Укажите дату" value="1 сентября 2023" required>
+                <input class="search-hotels-form-field" required type="text" id="departure-date" name="departure-date"
+                  placeholder="Укажите дату выезда" value="1 сентября 2023">
               </div>
               <p class="footnote-departure-date null-margins">На эти даты есть свободные номера. Пока есть.</p>
 
@@ -236,10 +237,10 @@
 
                   <div class="field-group field-group--amount">
                     <span class="modal-label-child">
-                      <label class="modal-label modal-label-people" for="child">Дети:</label>
+                      <label class="modal-label" for="child">Дети:</label>
                       <span class="tooltip">
                         <button class="tooltip-toggle" type="button" aria-labelledby="tooltip-label">
-                          <svg class="tooltip-icon" width="1" height="9" viewBox="0 0 1 9" fill="none"
+                          <svg class="tooltip-icon" width="2" height="9" viewBox="0 0 1 9" fill="none"
                             xmlns="http://www.w3.org/2000/svg">
                             <path d="M0 9H1L1 3H0L0 9Z" fill="white" />
                             <path d="M1 0H0V1H1V0Z" fill="white" />
@@ -257,7 +258,7 @@
                         <path d="M0 0v1h13V0H0Z" />
                       </svg>
                     </button>
-                    <input class="old-form-field modal-field-people" type="text" id="old" name="old"
+                    <input class="modal-field-people" type="text" id="child" name="old"
                       placeholder="количество взрослых" value="2">
                     <button class="button-modal button-modal-plus" type="button">
                       <span class="visually-hidden">Увеличить количество детей.</span>
