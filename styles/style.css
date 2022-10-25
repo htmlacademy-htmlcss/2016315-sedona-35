@@ -132,7 +132,7 @@ body {
   padding-right: 10px;
 }
 
-.navigation-user .navigation-item-user:nth-child(1) .navigation-link {
+.navigation-item-user:nth-child(1) .navigation-link {
   padding: 25px 15px;
   width: 18px;
   height: 18px;
@@ -141,7 +141,7 @@ body {
   background-position: center;
 }
 
-.navigation-user .navigation-item-user:nth-child(2) .navigation-link {
+.navigation-item-user:nth-child(2) .navigation-link {
   padding: 25px 15px;
   width: 18px;
   height: 18px;
